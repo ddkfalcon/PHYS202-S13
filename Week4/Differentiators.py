@@ -1,3 +1,4 @@
+from numpy import *
 def finiteDifference(x,y):
     #Returns the derivative of y with respect to x
     dydx = zeros(y.shape, float)
